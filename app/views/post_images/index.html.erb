@@ -23,7 +23,6 @@
                   <% end %>
                   </h3>
                   <p><%= post_image.caption %></p>
-<!--ここから-->
                   <ul class="inline-meta">
                   <li>By
                     <%= post_image.user.name %>
@@ -32,7 +31,6 @@
                     <%= link_to "#{post_image.post_comments.count} コメント", post_image_path(post_image.id) %>
                   </li>
                   </ul>
-<!--ここまで-->
                 </div>
               </div>
             </div>
